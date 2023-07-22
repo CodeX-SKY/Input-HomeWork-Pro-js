@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input HomeWork</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="box">
+            <div class="top">
+                <div class="nawbar-menu">
+                    <div class="nw nw2"></div>
+                    <div class="nw nw-js1"></div>
+                    <div class="nw nw-js2"></div>
+                </div>
+                <p class="top-text">PAYMENT METHOD</p>
+                <p class="top-text2">PAYMENT</p>
+                <p class="top-text3">PAYMENT END</p>
+            </div>
+            <div class="mini-box click-rm1">
+                <label class="label">
+                    <input class="input hidden" type="radio" name="team" value="visa" checked required="required">
+                    <div class="select">
+                        <img class="card" src="Images/visa.svg" alt="VISA">
+                        <span class="select-text">VISA</span>
+                    </div>
+                    <img class="check" src="Images/check.svg" alt="check">
+                </label>
+            </div>
+            <div class="mini-box click-rm2">
+                <label class="label">
+                    <input class="input hidden" type="radio" name="team" value="mastercard" required="required">
+                    <div class="select">
+                        <img class="card" src="Images/mastercard.svg" alt="MASTERCARD">
+                        <span class="select-text">MASTERCARD</span>
+                    </div>
+                    <img class="check" src="Images/check.svg" alt="check">
+                </label>
+            </div>
+            <div class="mini-box click-rm3">
+                <label class="label">
+                    <input class="input hidden" type="radio" name="team" value="maestro" required="required">
+                    <div class="select">
+                        <img class="card" src="Images/maestro.svg" alt="MAESTRO">
+                        <span class="select-text">MAESTRO</span>
+                    </div>
+                    <img class="check" src="Images/check.svg" alt="check">
+                </label>
+            </div>
+            <!-- -------------------- -->
+            <div class="payment">
+                <input class="payment-inp input-card-number" type="text" name="payment" placeholder="0000 0000 0000 0000" maxlength="16" required="required">  
+                <span class="payment-span">Card Number</span>
+                <input class="payment-inp input-card-date" type="text" name="payment" placeholder="XX/YY" maxlength="5" required="required">
+                <span class="payment-span">Card Data</span>                                                                                                    
+                <input class="payment-inp input-card-name" type="text" name="payment" placeholder="Minimal 5$ - Max 10000$" maxlength="14;" required="required">
+                <span class="payment-span">Payment Money</span>
+            </div>
+            <div class="payment2">
+                <p class="payment2-text"><span class="tdx">Payment Data :</span>  00 : 00</p>
+                <p class="payment2-text"><span class="tdx">Payment Money :</span>  Min 49$</p>
+                <p class="payment2-text"><span class="tdx">Payment Card :</span>  **** **** **** 0121</p>
+                <p class="payment2-text"><span class="tdx">Payment Number :</span>  №132</p>
+                <p class="payment2-text"><span class="tdx">Payment :</span> Yes</p>
+            </div>
+            <!-- -------------------- -->
+            <button class="box-button">NEXT STEP -></button>
+            <button class="box-button2">PAYMENT -></button>
+            <button class="box-button3">PAYMENT END - №132</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
